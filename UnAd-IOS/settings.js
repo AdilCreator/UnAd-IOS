@@ -39,7 +39,7 @@ whitelistUl.onclick = (e) => {
 
 document.getElementById('githubLink').onclick = (e) => {
     e.preventDefault();
-    chrome.tabs.create({ url: 'https://github.com/AdilCreator' });
+    chrome.tabs.create({ url: 'https://github.com/AdilCreator/UnAd-IOS/' });
 };
 
 updateList();
