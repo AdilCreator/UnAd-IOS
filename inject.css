@@ -1,0 +1,10 @@
+div[class*="ad-box"], div[id*="google_ads"], ins.adsbygoogle, .trc_rbox_container {
+  display: none !important;
+}
+
+#unad-zen-container {
+  position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+  background: #fdfdfd; z-index: 2147483647; overflow-y: auto; padding: 40px 20px;
+}
+.zen-content { max-width: 750px; margin: 0 auto; font-family: 'Georgia', serif; line-height: 1.8; font-size: 20px; color: #1a1a1a; }
+#close-zen { background: #007AFF; color: white; border: none; padding: 12px 24px; border-radius: 20px; cursor: pointer; margin-bottom: 40px; }
