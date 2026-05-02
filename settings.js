@@ -40,6 +40,11 @@ whitelistUl.onclick = (e) => {
 document.getElementById('githubLink').onclick = (e) => {
     e.preventDefault();
     chrome.tabs.create({ url: 'https://github.com/AdilCreator' });
+
+    document.getElementById('google').onclick = (e) => {
+    e.preventDefault();
+    chrome.tabs.create({ url: 'google.com' });
+    
 };
 
 updateList();
